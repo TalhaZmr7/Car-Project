@@ -1,0 +1,90 @@
+.filter {
+  display: flex;
+  justify-content: center;
+}
+
+.filter input {
+  margin: 20px 0;
+  padding: 10px;
+  width: 400px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+
+.homePage {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.homePage .post {
+  width: 300px;
+  background-color: rgb(250, 250, 250);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.post .postHeader {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.postHeader .title {
+  flex: 50%;
+}
+.postHeader .deletePost {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.deletePost button {
+  border: none;
+  background: none;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.post .postTextContainer {
+  word-wrap: break-word;
+  height: auto;
+  max-height: 400px;
+  width: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+.carAddedLink {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 190px;
+}
+
+.spinner {
+  display: flex;
+  justify-content: center;
+}
+.nav {
+  margin: 0;
+  width: 100%;
+  height: 80px;
+  background-color: rgb(82, 101, 94);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family:'Times New Roman', Times, serif;
+}
+.rowC{
+  display:flex; 
+  flex-direction:row;
+}
+
